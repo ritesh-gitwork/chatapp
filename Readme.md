@@ -34,8 +34,7 @@ Make sure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/navneetshahi14/ChatApplication.git
-   cd chat-application
+   git clone https://github.com/ritesh-gitwork/chatapp.git
    ```
 
 2. Install dependencies for both frontend and backend:
