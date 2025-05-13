@@ -35,8 +35,8 @@ const Signup = () => {
             const data = new FormData()
             data.append('file',pics)
             data.append("upload_preset","Chat-app")
-            data.append("cloud_name","dfr6qnt6a")
-            fetch("https://api.cloudinary.com/v1_1/dfr6qnt6a/image/upload",{
+            data.append("cloud_name","_your_key")
+            fetch("https://api.cloudinary.com/v1_1/__your_key/image/upload",{
                 method:"post",
                 body:data
             }).then((res)=> res.json())
